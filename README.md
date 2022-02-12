@@ -1,0 +1,26 @@
+There are countless strange issues with Microsoft products. Most of the bad ones can be found in Azure and Teams. Here's a running list of issues I have with Microsoft products:
+- VSCode
+  - Azure Functions (PS1)
+    - Debugging Azure Functions with PowerShell in VSCode crashes unless I restart the PowerShell terminal
+      - This has to happen every time a change is made to the code -- as you can imagine, this gets old quick  
+    - When debugging Azure Functions with PowerShell, breakpoints set inside functions only work like half the time
+      - You have to set breakpoints in the main caller and then manually step-into the function you want to debug
+  - Debugger (PS1)
+    - The debugger is barely stable when running PowerShell applications
+- Azure
+  - Groups
+    - Adding members to a group doesn't immediately display them once you save
+      - You have to either refresh the page explicitly (which works around 50% of the time), or...
+      - You just have to wait for around 1 minute to see your changes reflected in the page
+  - APIM
+    - You cannot add groups directly to an APIM product
+      - You have to add a group to your API first and then switch back to the products page
+      - Why APIM can't just let you search for groups from within the products page is beyond me
+- Teams
+  - Images
+    - Clicking on an image in a chat works 40% of the time
+      - The other 60% of the time, Teams just opens a blank tab and refuses to load anything
+      - This issue is way worse on Mobile devices too (Android -- I haven't tested iOS)
+  - Mobile-Specific
+    - "Typing" animation plays atop messages and clips with the text
+      - This looks incredibly lazy and I'm shocked this was even released
