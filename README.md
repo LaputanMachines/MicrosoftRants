@@ -22,16 +22,14 @@ Some things, like the Teams themselves, work really well, while most everything 
 These issues relate to sending and receiving messages in Teams.
 
 1. Clicking on an image in a chat works 40% of the time.
-    - The other 60% of the time, Teams just opens a blank tab and refuses to load anything.
-    - This issue is way worse on Mobile devices too (Android -- I haven't tested iOS).
+    - The other 60% of the time, Teams just opens a blank tab and refuses to load anything. This issue is way worse on Mobile devices too (Android -- I haven't tested iOS).
 
 ### Mobile-Specific Issues
 
 These issues are specific to the Teams mobile app.
 
 1. The "typing" animation thing plays atop message previews in the Chat list.
-    - This looks incredibly lazy and I'm shocked this was even released.
-    - The simplest solution is to hide the preview text wh
+    - This looks incredibly lazy and I'm shocked this was even released. The simplest solution is to hide the preview text wh
 
 ## Microsoft Azure
 
@@ -61,7 +59,6 @@ VSCode is absolutely amazing, when you're not writing PowerShell.
 These issues relate to developing Azure PowerShell Functions in VSCode.
 
 1. The debugger will reliably crash between runs unless I explicitly kill all existing PowerShell terminals in the editor.
-    - This has to happen every time a change is made to the code. As you can imagine, this gets old quick. 
-    - If you don't do this, either VSCode will explode (a flood of error messages related to reusing the old PS1 terminal) or the debugger will disconnect from the executing function. The latter is particularly upsetting. If you set some breakpoints and try to trigger them via a Postman request, you'll be stuck scratching your head wondering why none of them pause execution.
+    - This has to happen every time a change is made to the code. As you can imagine, this gets old quick. If you don't do this, either VSCode will explode (a flood of error messages related to reusing the old PS1 terminal) or the debugger will disconnect from the executing function. The latter is particularly upsetting. If you set some breakpoints and try to trigger them via a Postman request, you'll be stuck scratching your head wondering why none of them pause execution.
 2. When debugging Azure Functions with PowerShell, breakpoints set inside functions only work like half the time. I'm serious.
     - You have to set breakpoints in the main caller and then manually step-into the function you want to debug. Of course, when you go to show this to someone, the debugger magically gets its shit together. Maybe I need to pair-program full-time...
