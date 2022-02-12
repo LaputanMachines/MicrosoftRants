@@ -3,6 +3,15 @@ Most of the bad ones can be found in Azure and Teams.
 Here's a running list of issues I have with Microsoft products.
 **This is a living list; I update it constantly.**
 
+- [:poop: Microsoft Teams](#poop-microsoft-teams)
+    - [:zany_face: General Messaging](#zany_face-general-messaging)
+    - [:calling: Mobile-Specific Issues](#calling-mobile-specific-issues)
+- [:computer: Microsoft Azure](#computer-microsoft-azure)
+    - [:woman_facepalming: Azure Groups](#woman_facepalming-azure-groups)
+    - [:electric_plug: Azure APIM](#electric_plug-azure-apim)
+- [:floppy_disk: VSCode with PowerShell](#floppy_disk-vscode-with-powershell)
+    - [:mechanic: Azure PowerShell Function Development](#mechanic-azure-powershell-function-development)
+
 ## :poop: Microsoft Teams
 
 Teams drives me crazy. 
