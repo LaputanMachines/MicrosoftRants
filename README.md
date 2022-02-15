@@ -18,11 +18,15 @@ Here's a running list of issues I have with Microsoft products.
 
 1. Clicking on an image in a chat works 40% of the time.
     - The other 60% of the time, Teams just opens a blank tab and refuses to load anything. This issue is way worse on Mobile devices too (Android -- I haven't tested iOS).
+2. Lack of MD support while typing.
+3. If you write some text, drop down to a new line, and then add a code block, you cannot write more regular text below the code block.
+    - You have to delete the whole message and re-write it, or you have to switch to Slack because Slack isn't completely broken.
+    ![image](https://user-images.githubusercontent.com/8591722/154123550-afc44e78-9a62-411c-8005-98b8fd03acc9.png)
 
 ### Mobile-Specific Issues
 
 1. The "typing" animation thing plays atop message previews in the Chat list.
-    - This looks incredibly lazy and I'm shocked this was even released. The simplest solution is to hide the preview text wh
+    - This looks incredibly lazy and I'm shocked this was even released. The simplest solution is to hide the preview text while someone is typing.
 
 ## Microsoft Azure
 
@@ -44,3 +48,4 @@ Here's a running list of issues I have with Microsoft products.
     - This has to happen every time a change is made to the code. As you can imagine, this gets old quick. If you don't do this, either VSCode will explode (a flood of error messages related to reusing the old PS1 terminal) or the debugger will disconnect from the executing function. The latter is particularly upsetting. If you set some breakpoints and try to trigger them via a Postman request, you'll be stuck scratching your head wondering why none of them pause execution.
 2. When debugging Azure Functions with PowerShell, breakpoints set inside functions only work like half the time. I'm serious.
     - You have to set breakpoints in the main caller and then manually step-into the function you want to debug. Of course, when you go to show this to someone, the debugger magically gets its shit together. Maybe I need to pair-program full-time...
+    - UPDATE The debugger will never hit a breakpoint if it's on the first line of a function.
