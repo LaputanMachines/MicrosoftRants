@@ -18,6 +18,7 @@ Here's a running list of issues I have with Microsoft products.
 
 1. Clicking on an image in a chat works 40% of the time.
     - The other 60% of the time, Teams just opens a blank tab and refuses to load anything. This issue is way worse on Mobile devices too (Android -- I haven't tested iOS).
+    ![image](https://user-images.githubusercontent.com/8591722/154140702-4f7105f2-492d-481a-b013-b4abffd3602d.png)
 2. Lack of MD support while typing.
 3. If you write some text, drop down to a new line, and then add a code block, you cannot write more regular text below the code block.
     - You have to delete the whole message and re-write it, or you have to switch to Slack because Slack isn't completely broken.
