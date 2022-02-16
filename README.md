@@ -41,6 +41,11 @@ Here's a running list of issues I have with Microsoft products.
 1. You cannot add groups directly to an APIM product.
     - You have to add a group to your API first and then switch back to the Products page. Why it can't just let you search for groups from within the Products page is beyond me.
 
+### Azure Vault
+
+1. Access Policies list takes forever to load because Azure fetches the names of each principal ID in real-time.
+    - Every time you want to add/remove/update an access policy, you have to wait an extra minute for all the names to load in. The physical list itself moved around as this happens to it's not like you can make changes while it's doing this.
+
 ## VSCode with PowerShell
 
 ### Azure PowerShell Function Development
