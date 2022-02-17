@@ -40,6 +40,8 @@ Here's a running list of issues I have with Microsoft products.
 
 1. You cannot add groups directly to an APIM product.
     - You have to add a group to your API first and then switch back to the Products page. Why it can't just let you search for groups from within the Products page is beyond me.
+2. Opening the Azure APIM Developer Portal as an admin enabled Edit Mode with no way to disable it.
+    - Microsoft's "official" workflow is to use CTRL + CLICK to navigate the site, like some sort of animal. I rarely want to edit the portal page--I mainly want to test my API via the portal (what clients use). 
 
 ### Azure Vault
 
