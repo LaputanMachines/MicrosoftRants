@@ -31,6 +31,11 @@ Here's a running list of issues I have with Microsoft products.
 
 ## Microsoft Azure
 
+### Azure Functions
+
+1. Errors take 1+ minutes to appear in the Invocations list.
+    - When something fails to execute, you have to wait a while before any logs appear in the Monitor > Invocations screen.
+
 ### Azure Groups
 
 1. Adding members to a group doesn't immediately display them once you save.
