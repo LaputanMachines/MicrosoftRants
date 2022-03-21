@@ -11,6 +11,8 @@ Here's a running list of issues I have with Microsoft products.
     - [Azure APIM](#azure-apim)
 - [VSCode with PowerShell](#vscode-with-powershell)
     - [Azure PowerShell Function Development](#azure-powershell-function-development)
+- [Microsoft Outlook](#microsoft-outlook)
+    - [Focus Time](#focus-time)
 
 ## Microsoft Teams
 
@@ -62,3 +64,12 @@ Here's a running list of issues I have with Microsoft products.
 2. When debugging Azure Functions with PowerShell, breakpoints set inside functions only work like half the time. I'm serious.
     - You have to set breakpoints in the main caller and then manually step-into the function you want to debug. Of course, when you go to show this to someone, the debugger magically gets its shit together. Maybe I need to pair-program full-time...
     - UPDATE The debugger will never hit a breakpoint if it's on the first line of a function.
+
+## Microsoft Outlook
+
+### Focus Time
+
+1. The automatically-created _focus time_ slots in the Calendar only capitalizes the first word
+    - It would look much better if it read "Focus Time" instead of "Focus time"
+    ![image](https://user-images.githubusercontent.com/8591722/159354205-6fe09d87-8e60-4eec-8524-85a4b825bd97.png)
+
