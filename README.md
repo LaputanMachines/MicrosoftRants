@@ -9,6 +9,7 @@ Here's a running list of issues I have with Microsoft products.
 - [Microsoft Azure](#microsoft-azure)
     - [Azure Groups](#azure-groups)
     - [Azure APIM](#azure-apim)
+    - [Azure App Insights](#azure-app-insights)
 - [VSCode with PowerShell](#vscode-with-powershell)
     - [Azure PowerShell Function Development](#azure-powershell-function-development)
 - [Microsoft Outlook](#microsoft-outlook)
@@ -54,6 +55,12 @@ Here's a running list of issues I have with Microsoft products.
 
 1. Access Policies list takes forever to load because Azure fetches the names of each principal ID in real-time.
     - Every time you want to add/remove/update an access policy, you have to wait an extra minute for all the names to load in. The physical list itself moved around as this happens to it's not like you can make changes while it's doing this.
+
+### Azure App Insights
+
+1. Hovering over existing Insights when attempting to change your resource does not change your cursor to a "pointer" icon
+    - When you hover over something you can click on, your cursor should always turn into a little pointy finger
+    -  
 
 ## VSCode with PowerShell
 
