@@ -28,7 +28,7 @@ Here's a running list of issues I have with Microsoft products.
     ![image](https://user-images.githubusercontent.com/8591722/154123550-afc44e78-9a62-411c-8005-98b8fd03acc9.png)
 4. Chat bubble pictures sometimes display incorrectly when you first start Teams
     - This only seems to affect bubbles with custom images -- default images aren't affected by this issue
-    ![image](https://user-images.githubusercontent.com/8591722/162995005-0acb72c8-21c5-4716-9e6c-5e48cc1bf0b5.png)  
+    ![image](https://user-images.githubusercontent.com/8591722/163034842-2297117f-18f7-48b6-96a1-d28d304c6dfe.png)
 
 ### Mobile-Specific Issues
 
