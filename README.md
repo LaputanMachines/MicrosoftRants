@@ -26,6 +26,9 @@ Here's a running list of issues I have with Microsoft products.
 3. If you write some text, drop down to a new line, and then add a code block, you cannot write more regular text below the code block.
     - You have to delete the whole message and re-write it, or you have to switch to Slack because Slack isn't completely broken.
     ![image](https://user-images.githubusercontent.com/8591722/154123550-afc44e78-9a62-411c-8005-98b8fd03acc9.png)
+4. Chat bubble pictures sometimes display incorrectly when you first start Teams
+    - This only seems to affect bubbles with custom images -- default images aren't affected by this issue
+    ![image](https://user-images.githubusercontent.com/8591722/162995005-0acb72c8-21c5-4716-9e6c-5e48cc1bf0b5.png)  
 
 ### Mobile-Specific Issues
 
