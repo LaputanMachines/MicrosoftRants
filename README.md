@@ -10,6 +10,8 @@ Here's a running list of issues I have with Microsoft products.
     - [Azure Groups](#azure-groups)
     - [Azure APIM](#azure-apim)
     - [Azure App Insights](#azure-app-insights)
+- [Microsoft KeyVault](#microsoft-keyvault)
+    - [Secrets](#secrets)
 - [VSCode with PowerShell](#vscode-with-powershell)
     - [Azure PowerShell Function Development](#azure-powershell-function-development)
 - [Microsoft Outlook](#microsoft-outlook)
@@ -63,7 +65,13 @@ Here's a running list of issues I have with Microsoft products.
 
 1. Hovering over existing Insights when attempting to change your resource does not change your cursor to a "pointer" icon
     - When you hover over something you can click on, your cursor should always turn into a little pointy finger
-    -  
+
+## Microsoft KeyVault
+
+### Secrets
+
+1. Deleting a secret via the API and then hitting the Refresh button in the Portal UI doesn't show that the secret was deleted
+    - To reproduce this: create a secret in your vault. Then, use the Graph API to delete the secret. In the UI, click the Refresh button. Observe that the secret is still listed in the list -- if you click on the secret, Azure tells you that it no longer exists. You have to refresh the page to see the change. Why have a refresh button if it doesn't work? 
 
 ## VSCode with PowerShell
 
