@@ -16,6 +16,10 @@ Here's a running list of issues I have with Microsoft products.
     - [Azure PowerShell Function Development](#azure-powershell-function-development)
 - [Microsoft Outlook](#microsoft-outlook)
     - [Focus Time](#focus-time)
+- [Powershell](#powershell)
+    - [General Performance](#general-performance)
+- [PowerBI](#powerbi)
+    - [Filters](#filters)
 
 ## Microsoft Teams
 
@@ -91,3 +95,17 @@ Here's a running list of issues I have with Microsoft products.
     - It would look much better if it read "Focus Time" instead of "Focus time"
     ![image](https://user-images.githubusercontent.com/8591722/159354205-6fe09d87-8e60-4eec-8524-85a4b825bd97.png)
 
+## Powershell
+
+### General Performance
+
+1. The `Import-PSSession` function is known to leak memory 
+    - We have always-online PS1 FunctionApps that need to be configured to auto-heal because `PSSessions` eat up a profound amount of memory and never relinquish resources. We contacted Microsoft and they confirmed that the function is leaky-af.
+
+## PowerBI
+
+### Filters
+
+1. Unchecking month filters does not remove the selection from the dataset
+    - Regardless of the months selected, the original selection remains checked. The worst part is that the data does not change to reflect your filter selections!
+    ![powerbi-filter-issue](https://user-images.githubusercontent.com/8591722/175993273-fa5aca97-8cc9-4b95-9cd5-16886dd2c036.gif)
