@@ -108,4 +108,3 @@ Here's a running list of issues I have with Microsoft products.
 
 1. Unchecking month filters does not remove the selection from the graph you're trying to filter
     - Regardless of the months selected, the original selection remains checked. The worst part is that the data does not change to reflect your filter selections!
-    ![powerbi-filter-issue](https://user-images.githubusercontent.com/8591722/175993273-fa5aca97-8cc9-4b95-9cd5-16886dd2c036.gif)
